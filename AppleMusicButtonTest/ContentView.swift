@@ -14,40 +14,8 @@ struct ContentView: View {
     var body: some View {
         Button("") {
             print("Pressed")
-        }.buttonStyle(PlayButton())
-        
-        
-//        Button {
-//            isPressed.toggle()
-//        } label: {
-//            if isPressed {
-//                Image(systemName: "play.fill")
-//                    .resizable()
-//                    .aspectRatio(contentMode: .fit)
-//                    .frame(width: 30.0)
-//                    .transition(.scale)
-//                    .padding(.trailing, -4)
-//                Image(systemName: "play.fill")
-//                    .resizable()
-//                    .aspectRatio(contentMode: .fit)
-//                    .frame(width: 30.0)
-//                    .transition(.slide)
-//                    .padding(.leading, -4)
-//            } else {
-//                Image(systemName: "play.fill")
-//                    .resizable()
-//                    .aspectRatio(contentMode: .fit)
-//                    .frame(width: 30.0)
-//                    .padding(.trailing, -4)
-//                Image(systemName: "play.fill")
-//                    .resizable()
-//                    .aspectRatio(contentMode: .fit)
-//                    .frame(width: 30.0)
-//                    .transition(.scale)
-//                    .padding(.leading, -4)
-//            }
-//        }
-
+        }
+        .buttonStyle(PlayButton())
     }
 }
 
